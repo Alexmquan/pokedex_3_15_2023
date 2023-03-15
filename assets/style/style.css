@@ -1,1 +1,10 @@
 /* BASIC STYLES HERE */
+body {
+  background-image: url("https://c4.wallpaperflare.com/wallpaper/945/187/787/pokemon-pikachu-bulbasaur-charmander-wallpaper-preview.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.main-bg-color {
+  background-color: rgb(198, 99, 18);
+}
