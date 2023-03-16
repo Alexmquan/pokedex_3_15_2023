@@ -1,9 +1,12 @@
 import { ValuesController } from "./Controllers/ValuesController.js";
-import { PokemonsController } from "./Controllers/PokemonsController.js";
+import { WildPokemonsController } from "./Controllers/WildPokemonsController.js";
+import { CaughtPokemonsController } from "./Controllers/CaughtPokemonsController.js";
 
 class App {
   // valuesController = new ValuesController();
-  pokemonsController = new PokemonsController();
+  wildPokemonsController = new WildPokemonsController();
+
+  caughtPokemonsController = new CaughtPokemonsController();
 }
 
 window["app"] = new App();
